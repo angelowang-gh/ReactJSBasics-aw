@@ -24,15 +24,25 @@ const MainPage = () => {
   const mainPage = (
     <div>
       <Header />
+      <br />
       <ProfileHeader {...data} />
+      <br />
       <MainContent {...data} />
+      <br />
       <Weather/>
+      <br />
       <AdvanceData/>
+      <br />
       <App/>
+      <br />
       <BasicComponent />
+      <br />
       <KnowFlux />
+      <br />
       <MonkeyController/>
+      <br />
       <MonkeyView />
+      <br />
     </div>
   );
 

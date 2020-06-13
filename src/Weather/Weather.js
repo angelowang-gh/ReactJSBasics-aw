@@ -43,8 +43,9 @@ class Weather extends Component {
       )
     }
     return (
-      <div>
-        {a}  
+      <div style={{border:'3px solid #f00'}}>
+        <h3>天气组件</h3>
+        {a}
       </div>
     )
   }
